@@ -1,0 +1,142 @@
+.me {
+    height: 90vh;
+    overflow: auto;
+    /* margin: 20px; */
+}
+
+.me-title {
+    justify-content: space-between;
+    color: rgba(0, 0, 0, .8);
+    padding: 0.173611rem 1.388889rem 1.041667rem;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.me-info {
+    flex: 1;
+    width: 18.75rem;
+    margin: 0 auto;
+}
+
+.me-order-list {
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    /* padding: 0 10px; */
+    margin-bottom: 15px;
+}
+
+.order-price {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+p {
+    margin-bottom: 0
+}
+
+.order-price span {
+    font-weight: 600;
+}
+
+.me-info-view {
+    width: 95%;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.me-total-view {
+    width: 95%;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    position: relative;
+    box-sizing: border-box;
+    padding:10px 20px;
+    margin-top: 20px;
+}
+
+.me-total-view p {
+    margin-bottom: 0;
+}
+
+.me-total-view .coins {
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    margin-top: 10px;
+
+}
+
+.me-total-view .coins span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.avatar-img {
+    margin-left: -20px;
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+    border: 1px solid gray;
+}
+
+.me-info-view .avatar-img {
+    margin-left: 0;
+}
+
+.me-email {
+    margin-left: 20px;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.logout {
+    /* position: absolute; */
+    width: 100%;
+    /* z-index: 999; */
+}
+
+.logout-box {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+
+.proceed-btn {
+    background-color: rgb(171, 184, 138) !important;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    padding: 5px;
+    border: 0;
+    border-radius: 0.4rem;
+    text-decoration: none #D1D5DB solid;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+}
+
+.logout button {
+    width: 42%;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: 0.6rem 3rem;
+    text-align: center;
+    -webkit-text-decoration: none #D1D5DB solid;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    cursor: pointer;
+}

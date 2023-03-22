@@ -1,0 +1,115 @@
+.background-home{
+
+}
+
+.text-container{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* track page*/
+.footprints{
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+.calendar svg{/* arrows */
+    font-size: 2em;
+    cursor: pointer;
+}
+.month-title{
+    margin:0;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.calendar-wrapper{
+    background: white;
+    height: fit-content;
+    width: 70vw;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 50px;
+}
+.calendar{
+    background: white;
+    height: 10vh;
+    width: fit-content;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    transition: all 0.5s;
+    padding: 20px;
+}
+.footprints-wrapper{
+    width: 70vw;
+    height: 75vh;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.exercise-background{
+    width: 45vw;
+    padding: 25px 50px;
+    background: white;
+    font-size: 1.7em;
+    margin-bottom: 15px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+p{
+    margin: 0;
+}
+.footprint-list{
+    width: 45vw;
+}
+
+.footprint-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.exercise-menu-icon{
+    cursor: pointer;
+    padding: 0px 10px;
+    font-size: 0.75em;
+    color: gray;
+}
+.exercise-menu-icon:hover{
+    color: black;
+}
+.exercise-list{
+    width: 45vw;
+}

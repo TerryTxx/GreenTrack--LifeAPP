@@ -1,0 +1,146 @@
+.register-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-container{
+    background: #f1f7fe;
+    height: 700px;
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.register-title{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-bottom: 1px solid lightgray;
+}
+.register-form{
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    border: 1px solid lightgray;
+    background: white;
+    border-radius: 25px;
+}
+.register-input{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    background: transparent;
+    font-size: 1.2em;
+}
+.register-submit{
+    font-size: 1.3em;
+    padding: 10px;
+    border-radius: 15px;
+    border:none;
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+.register-response{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+
+
+.formContainer{
+    background-color: var(--theme-color);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formWrapper{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.logo{
+    color: #5d5b8d;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title{
+    color: #dbea9e;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 350px;
+}
+
+.formWrapper input{
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #dbea9e;
+}
+.formWrapper input::placeholder{
+    color: rgb(175, 175, 175);
+}
+.formWrapper button{
+    background-color: #dbea9e;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.formWrapper p{
+    color: #5d5b8d;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.formWrapper label{
+    display: flex;
+    align-items: center;
+    color: #a7bcff;
+    font-size: 12px;
+    gap: 10px;
+    cursor: pointer;
+}
+.formWrapper label img{
+    width: 32px;
+}
+.user.img{
+    background-color: #ddddf7;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+.user button{
+    background-color: #5d5b8d;
+    color: #ddddf7;
+    font-size: 10px;
+    border: none;
+}
+.errorMessage{
+    width: 100%;
+    text-align: center;
+}
